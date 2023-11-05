@@ -14,7 +14,8 @@ do
     done
 
     read -p "Deseja gerar mais uma sequência? (s/n): " choice
-    if [ "$choice" != "s" ]; then
+    if [ "$choice" != "s" ]
+    then
         echo "Boa Sorte!"
         break
     fi
